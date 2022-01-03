@@ -28,9 +28,15 @@ Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias vi vim
+Set-Alias mvn 'C:\ProgramData\chocolatey\lib\maven\apache-maven-3.8.4\bin\mvn.cmd' 
+Set-Alias conda 'C:\Users\user\anaconda3\conda.exe'
+Set-Alias python 'C:\Windows\py.exe'
 
 # Java Alias
 Set-Alias java8 'C:\Users\user\.jdks\corretto-1.8.0_312\bin\java'
+Set-Alias java11 'C:\Users\user\.jdks\corretto-11.0.13\bin\java'
+Set-Alias java16 'C:\Users\user\.jdks\corretto-16.0.2\bin\java'
+Set-Alias java17 'C:\Program Files\Amazon Corretto\jdk17.0.1_12\bin\java'
 
 # Utilities
 function which ($command) {
